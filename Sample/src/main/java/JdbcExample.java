@@ -23,12 +23,12 @@ public class JdbcExample {
 			e.printStackTrace();
 		}			
 		}
-static void readData(Statement stmt) throws SQLException {
-	ResultSet rs= stmt.executeQuery("SELECT * FROM employee");
-	while(rs.next()) {
-		String name= rs.getString("name"); 
-		System.out.println(name); 
-	}
-}
+//static void readData(Statement stmt) throws SQLException {
+	//ResultSet rs= stmt.executeQuery("SELECT * FROM employee");
+	//while(rs.next()) {
+		//String name= rs.getString("name"); 
+		//System.out.println(name); 
+	//}
+//}
 
-}
+//}

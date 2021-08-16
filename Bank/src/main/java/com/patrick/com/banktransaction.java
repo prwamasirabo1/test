@@ -6,6 +6,16 @@ public class banktransaction {
 	
 		  public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		
+		//Scanner input= new Scanner(System.in); 
+		String user, pass; 
+		
+		System.out.print("Enter your username: ");
+		user = input.nextLine();
+		
+		System.out.print("Enter your password:");
+	    pass = input.nextLine();
+		
 		System.out.print("Savings Account balance: ");
 		double savingaccount = input.nextDouble();
 		System.out.print("Checkings Account balance: ");

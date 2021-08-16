@@ -14,7 +14,7 @@ public class ConnectDB {
 		 * username and password for the database are declared, and the local host is my computer. 
 		 */		
 		
-	//String jdbcURL = "jdbc:postgresql://127.0.0.1:5432/Bank_Patrick";
+	//String jdbcURL = "jdbc:postgresql://127.0.0.1:5432/Bank";
 		
 	Scanner input= new Scanner(System.in); 
 	String user, pass; 
@@ -40,7 +40,7 @@ public class ConnectDB {
 	 
 		try {
 		
-			Connection connection = DriverManager.getConnection("jdbc:postgresql://127.0.0.1:5432/postgres","postgres","Widetechchf01!");
+			Connection connection = DriverManager.getConnection("jdbc:postgresql://127.0.0.1:5432/Bank_Patrick","postgres","Widetechchf01!");
 			System.out.println("Connection Established"); 
 			
 						
@@ -76,7 +76,7 @@ public class ConnectDB {
 	          
 	         // String sql5 = "CREATE TABLE Transaction (account_id INTEGER not Null)";
 	          
-	          Statement stmt = connection.createStatement();
+	          //Statement stmt = connection.createStatement();
 	          
 	         //stmt.executeUpdate(sql);
 	         //stmt.executeUpdate(sql1);
